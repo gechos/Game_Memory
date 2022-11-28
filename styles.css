@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+/*font, size, left margin and background color for the body*/
+body {
+  font-family: "Amatic SC", Courier, monospace, helvetica, arial, verdana,
+  sans-serif;
+  background-color: #f8f8f8;
+  width: 100vw;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 1.2em;
+  background-color: inherit;
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 10%;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter {
+  border: none;
+  text-align: center;
+  width: 2em;
+}
+
+.turn-counter {
+  text-align: center;
+}
+
+.turn-counter input {
+  display: block;
+  width: 100vw;
+}
+
+.init-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.grid-size {
+  background: none;
+  font-family: "Amatic SC", Courier, monospace, helvetica, arial, verdana,
+    sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.grid-size::-webkit-inner-spin-button {
+  width: 20px;
+  height: 20px;
+  background-color: #b85050;
+  opacity: 1;
+}
+
+/*Position for the board where the images are displayed*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #cad2d5;
+  padding: 15px;
+}
+
+.cards {
+  background-color: #b85050;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  border: 3px solid #00000033;
+}
+
+.start-btn {
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 30%;
+}
+

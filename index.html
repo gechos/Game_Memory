@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body class="page">
+    <div class="header">
+        <h1>Memory Game</h1>
+    </div>
+    <div class="game-info">
+        <div class="players" >
+            <div class="score">
+                <h2>player 1</h2>
+                <input id='player1Counter' class="counter" type="number" value="0">
+            </div>
+            <div class="score">
+                <h2>player 2</h2>
+                <input id='player2Counter' class="counter" type="number" value="0">
+            </div>
+        </div>
+        <div class="turn-counter">
+            <h3>player</h3> 
+            <input id="playerTurn" class="counter" type="number" value="1">
+            <h3>turn</h3>
+        </div>
+
+    </div>
+    <div id="board" class="container">
+        
+    </div>
+    <br>
+    <div id="new-game" class="footer">
+        <input type="button" value="" id="newGame" >
+    </div>
+
+    <script src="./DisplayScript.js"></script>
+    <script src="./GameLogic.js"></script>
+</body>
+
+</html
